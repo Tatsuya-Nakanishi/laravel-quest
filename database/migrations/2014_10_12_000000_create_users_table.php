@@ -6,6 +6,8 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateUsersTable extends Migration
 {
+    // マイグレーション ファイルはMysqlなどのデータベースの構造を設計するものである。
+    // モデルとの違いは、モデルはデータベースのやり取りの仕方を定義しているものである
     /**
      * Run the migrations.
      *
